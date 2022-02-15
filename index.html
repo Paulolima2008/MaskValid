@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>Máscara e Validação</title>
+</head>
+<body>
+<div style="text-align:center">
+<h3>Máscara e validação</h3>
+<p><b>*Autor:</b>Paulo Lima.</p>
+<p><b>*GitHub:</b><a href="https://github.com/paulolima2008">https://github.com/Paulolima2008</a></p>
+<p>Exemplo utilizando javascript puro com regex para formatar e validar inputs.</p>
+</div>
+<div style="text-align:center">
+<div><label>1 - Telefone/Celular</label></div>
+<div><input type="tel" name="tel-cel" id="tel" maxlength="15"/></div>
+<p>
+<div><label>2 - Cep</label></div>
+<div><input type="text" name="cep" id="cep" maxlength="9"/></div>
+<p>
+<div><label>3 - Placa Mercosul e Antiga</label></div>
+<div><input type="text" name="placa" id="placa" maxlength="8"/></div>
+<p>
+<div><label>4 - Número Decimal</label></div>
+<div><input type="tel" name="tel-cel" id="numerico" maxlength="10"/></div>
+<p>
+<div><label>5 - Letras e espaço</label></div>
+<div><input type="text" name="letras" id="caracteres" maxlength="30"/></div>
+<p>
+<div><label>6 - Cpf/Cnpj</label></div>
+<div><input type="text" name="cpf-cnpj" id="cpf-cnpj" maxlength="18"/></div>
+<p>
+<div><label>7 - Monetário</label></div>
+<div><input type="text" name="real" id="monetario" maxlength="20"/></div>
+</div>
+<!-- Mascara e validação -->
+<script src="maskValid.js"></script>
+</body>
+</html>
