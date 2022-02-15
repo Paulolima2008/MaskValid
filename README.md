@@ -16,8 +16,8 @@ Visto que muitas empresas e desenvolvedores vem removendo o jQuery de seus códi
 
 Isso se dá por alguns fatores principais, são eles:
 
-*Evolução do JavaScript como linguagem de alto nível.
-*Padrões do JavaScript sendo acatados pelos principais navegadores.
-*Surgimento de novos frameworks web, como Angular, Vue e React.
+> Evolução do JavaScript como linguagem de alto nível.
+> Padrões do JavaScript sendo acatados pelos principais navegadores.
+> Surgimento de novos frameworks web, como Angular, Vue e React.
 Esses três fatores associados com o crescimento dos frameworks web modernos aumentam cada vez mais o declínio de utilização do jQuery.
 
